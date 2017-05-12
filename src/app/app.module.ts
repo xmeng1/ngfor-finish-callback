@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { LiReadyComponent } from './li-ready/li-ready.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LiReadyComponent
   ],
   imports: [
     BrowserModule,

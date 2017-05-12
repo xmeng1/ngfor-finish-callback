@@ -1,3 +1,5 @@
 <h1>
   {{title}}
 </h1>
+<!--<li *ngFor="let item of items;  let last1 = last;" [attr.ready]="!last1">-->
+<app-li-ready *ngFor="let item of items;  let last1 = last;" [ready]="last1" [item]="item"></app-li-ready>
